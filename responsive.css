@@ -1,0 +1,31 @@
+@media screen and (max-width: 992px) {
+  .numbers {
+    display: none !important;
+  }
+  .evarugs-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    text-align: center !important;
+  }
+  .instag {
+    display: none !important;
+  }
+  .map {
+    display: none !important;
+  }
+  .numbers {
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header {
+    justify-content: center;
+  }
+  .right-foto {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */

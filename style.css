@@ -1,0 +1,228 @@
+body {
+  background-color: rgba(212, 20, 90, 0.25) !important;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, #d55ac3, #290455);
+  padding: 20px !important;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.map, .instag {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.instag i {
+  font-size: 25px;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-evarugs {
+  display: flex;
+  align-items: center;
+}
+.icon-evarugs span {
+  color: #000;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.evarugs-text {
+  display: flex;
+  color: #737373;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  gap: 10px;
+}
+
+.icon-evarugs {
+  display: flex;
+  gap: 10px;
+}
+
+.main-text {
+  height: 100%;
+  padding-top: 120px !important;
+}
+.main-text h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.main-text p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 15px !important;
+}
+.main-text button {
+  width: 179px;
+  height: 53px;
+  padding: 10px !important;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  background: linear-gradient(95deg, #B90160 2.23%, #2E3192 99.51%);
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.right-foto img {
+  width: 100%;
+}
+
+.col-card {
+  border-radius: 9px;
+  background: #FFF;
+}
+
+.col-text {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.col-text h2 {
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.col-text h3 {
+  display: inline-block;
+  background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-one-text {
+  background-color: #fffafa;
+  padding: 20px;
+}
+.card-one-text h4 {
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-one-text p {
+  color: #565454;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.card-one-page img {
+  width: 100%;
+}
+
+.text-and-image {
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 9px;
+}
+.text-and-image img {
+  margin-bottom: 30px;
+  margin-top: -55px;
+  border-radius: 50%;
+}
+.text-and-image p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.text-and-image hr {
+  width: 150px;
+  display: inline-block;
+  background: linear-gradient(90deg, #D4145A 3.35%, #3D5BF5 91.43%) !important;
+}
+
+.carusel {
+  width: 100%;
+  margin-top: 90px;
+  padding-top: 100px;
+  height: 357px;
+  background: linear-gradient(94deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+}
+
+footer {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.footer-text p {
+  padding-bottom: 10px;
+}
+.footer-text span {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
